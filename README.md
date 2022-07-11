@@ -9,7 +9,7 @@
   - git add
   - git status
   - git commit -m "커밋 메시지"
-  - git log (--oneline , --2 --oneline)
+  - git log (--oneline , -2 --oneline)
 
 ## 7/6 - Github의 시작
 - 원격저장소 만들기
@@ -38,3 +38,79 @@
   - 혼자 쭉 하는경우/다른 파일을 수정하는 경우 상관없음
   - 같은 파일을 수정하는 경우 conflict 일어남
     - 충돌 된 부분 수정 --> git add . --> git commit (code 보고 닫는다)
+
+## 7/11 - Python 의 기초
+
+> 컴퓨터`[Computer]`(Caulation(계산)+Remember(기억))
+>
+> 프로그래밍`[Programmng]`(명령어의 모음(집합))
+>
+> 언어 (컴퓨터에게 명령하는 말)
+
+``````
+선언적 지식(declarative knowledge) - 사실에 대한 내용
+명령적 지식(imperative knowledge) - How-to
+``````
+
+- Python 의 특징
+  - 동적 타이핑 언어 - 변수에 별도의 타입 지정이 필요 없음
+  - **객체 지향 프로그래밍(Object Oriented Programming)**
+
+> 코드는 위에서 아래로 / 오른쪽에서 왼쪽으로
+
+- Python 문법 (숫자[정수 실수 복수] , 문자 , Bool[True False] , None)
+
+  - 모든 결과는 ```print('hello')``` 를 해야 보여진다.
+
+  - 변수(Variable)는 할당 연산자`=`를 동해 할당 된다.
+
+  - `#` 는 컴퓨터는 못보는 메모, 주석
+
+  - `0`은 False `1`은 True
+
+  - 정수`int`  , 실수 `float` (소수점) , `str`문자열
+
+  - `%`나머지 ,  `//`몫  ,  `**`거듭제곱
+
+  - `<=`이하 , `>=`이상 , `==`같다 , `!=`같지않다
+
+  - 인덱싱 첫 번째 자리는 `0`이다 , 거꾸로 하면 끝자리부터 `-1` `-2` `-3`(마지막 자리는 `-1`)
+
+    ```python
+    fruit = 'abcde'
+    print(fruit[1:3])
+    # bc
+    
+    fruit = 'abcde'
+    print(fruit[-1])
+    # e
+    
+    fruit = 'abcde'
+    print(fruit[2:5:2])
+    # ce
+    
+    fruit = 'abcde'
+    print(fruit[3:1:-1])
+    # dc
+    
+    fruit = 'abcde'
+    print(fruit[:3])
+    # abc # :(기본)부터 3자리
+    
+    fruit = 'abcde'
+    print(fruit[1:])
+    # bcde # 1부터 끝까지 
+    
+    [::] = 처음부터 끝까지 abcdef
+    [::-1] = 뒤집기 fedcba
+    
+    'a' in 'apple'
+    # True
+    ```
+
+  - `len`글자길이 , 
+
+
+
+
+
