@@ -144,3 +144,44 @@
 
 ## 7/15 - 모듈
 
+## 7/18  - 딕셔너리 마무리 & 디버깅 & 에러와 예외
+
+``````python
+# 딕셔너리 추가
+result = {}
+result['a'] = 0
+print(result) # {'a':0}
+
+word = 'banana'
+
+result = {}
+
+for char in word:
+    print(char)
+    # 키가 없으면 1으로 초기화를 하고
+    if char not in result:
+        result[char] = 1
+    # 키가 있으면 기존 값에 더하자
+    else:
+        result[char] = result[char] + 1
+# 츌력결과        
+print(result)
+# b
+# a
+# n
+# a
+# n
+# a
+{'b':1, 'a':3, 'n':2}        
+``````
+
+- **디버깅**(주석&출력 / VScode / 파이썬시뮬)
+- 에러(Error)
+  - 문법 에러(Syntax Error) - 표시된 line을 시점으로 띄어쓰기 따옴표 등등 확인
+  - TypeError - 정수 실수 문자 등등
+  - ValueError - 타입은 올바르나 값이 적절하지 않거나 없는 경우(코드가 잘못 됨)
+  - IndexError - 목록보다 넘어서는 걸 출력하고자 했을 때
+  - KeyError - 딕셔너리 활용과정 (키가 없어서)
+  - ModuleNotFoundError - 존재하지 않는 모듈을 import 하는경우
+  - IndentationError - 스페이스, 탭 등등
+  - Keyboardinterrupt - 임의로 코드가 계속 돌 때 (Ctrl + c 로 종료)
