@@ -185,3 +185,71 @@ print(result)
   - ModuleNotFoundError - 존재하지 않는 모듈을 import 하는경우
   - IndentationError - 스페이스, 탭 등등
   - Keyboardinterrupt - 임의로 코드가 계속 돌 때 (Ctrl + c 로 종료)
+
+## 7/19 - OOP(객체지향 프로그래밍)
+
+> **객체(object)는 특정 타입(class)의 인스턴스(instance) 이다.**
+>
+> 123,900,5 는 int의 인스턴스
+>
+> 'hello','bye' 는 string의 인스턴스
+
+- 객체 지향 프로그래밍
+
+  - 사각형 - **클래스(class)** #사람
+  - 각 사각형 (R1,R2) - **인스턴스(instance)** #아이유
+  - 사각형의 정보 - **속성(attribute)**
+    - 가로길이, 세로길이
+  - 사각형의 행동/기능 - **메소드(method)**
+    - 넓이를 구한다. 높이를 구한다.
+
+- 기본 문법
+
+  ```python
+  # 클래스 정의
+  class MyClass:
+  # 인스턴스 생성 - 생성자 _ _init_ _ / 소멸자 _ _del_ _
+  my_instance = MyClass()
+  # 메서드 호출
+  my_instance.my_method()
+  # 속성
+  my_instance.my_attribute
+  
+  # 변수이름짓기
+  # 스네이크 케이스 - snake_case (웬만하면 스네이크 케이스 사용)
+  # 카멜 케이스 - CamelCase
+  
+  # 예
+  #list : 클래스
+  #[] : 인스턴스
+  #sort : 메소드
+  ```
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
