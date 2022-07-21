@@ -1,7 +1,10 @@
 # TIL (Today I Learned)
 # 절대 규칙
+> 내 접근 방법 설명 - 코드 보고 구성요소가 이해가 가는지 (접근 방법을 아는데 구현 못하면 코드를 보자)
+
 - 무슨 일이 있어도 하루 1commit
 - 간단하게라도 꼭 정리하기
+
 ---
 ## 7/5 - Git의 시작
 - 로컬저장소 만드는 단계
@@ -208,6 +211,7 @@ print(result)
   ```python
   # 클래스 정의
   class MyClass:
+      pass
   # 인스턴스 생성 - 생성자 _ _init_ _ / 소멸자 _ _del_ _
   my_instance = MyClass()
   # 메서드 호출
@@ -224,16 +228,42 @@ print(result)
   #[] : 인스턴스
   #sort : 메소드
   ```
-
   
 
+## 7/20 - OOP(객체지향 프로그래밍)
 
+## 7/21 - 파이썬 응용&심화 / 모듈(패키지)
 
+- 리스트 딕셔너리 컴프리핸션
 
+  ```python
+  # 리스트
+  even_list = [i**2 for i in range(10) if i % 2 == 0]
+  print(even+list)
+  # [0, 2, 4, 6, 8]
+  
+  # 딕셔너리
+  even_dict = {}
+  for number in range(1, 4):
+      even_dict[number] = number ** 3
+  print(even_dict)
+  # {number: number**3 for number in range(1, 4)}
+       키      값
+  ```
 
+- 람다함수 lambda [parameter] : 표현식
 
+![image-20220721103331144](README.assets/image-20220721103331144.png)
 
+- 파이썬 패키지 관리자(pip)
 
+```pip list - 패키지 설치 확인 명령어
+pip list - 패키지 설치 확인 명령어
+
+pip uninstall requests - pip 삭제 명령어
+
+which python - python이 설치된 곳 찾는 명령어 
+```
 
 
 
