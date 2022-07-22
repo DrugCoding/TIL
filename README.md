@@ -265,9 +265,18 @@ pip uninstall requests - pip 삭제 명령어
 which python - python이 설치된 곳 찾는 명령어 
 ```
 
+## 7/22 - 프로젝트02 - API(Application Programming Interface)
 
-
-
+- API 활용시 확인 사항
+  - **요청하는 방식에 대한 이해**
+    - 인증 방식
+    - URL 생성
+      - 기본 주소
+      - 원하는 기능에 대한 추가 경로
+      - 요청 변수 (필수와 선택)
+  - **응답 결과에 대한 이해**
+    - 응답 결과 타입 (JSON)
+    - 응답 결과 구조
 
 
 
