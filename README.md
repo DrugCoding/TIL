@@ -291,7 +291,9 @@ which python - python이 설치된 곳 찾는 명령어
 
   ![image-20220725102641931](README.assets/image-20220725102641931.png)
 
+## 7/26 - 알고리즘 - 빅오(Big-O) 표기법
 
+![image-20220726105133342](README.assets/image-20220726105133342.png)
 
 
 
