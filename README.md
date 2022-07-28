@@ -334,3 +334,26 @@ which python - python이 설치된 곳 찾는 명령어
   ![image-20220727114353037](README.assets/image-20220727114353037.png)
 
 - 아스키코드
+
+## 7/28 - 딕셔너리(Dictionary)
+
+```python
+# 일반인
+scores = [ 'A','B','C','D','A','A']
+counter= {
+    'A': 0,
+    'B': 0,
+    'C': 0,
+    'D': 0,
+}
+for i in scores:
+    counter[i] += 1
+# print(counter) = {'A':3,'B':1'C':1,'D':1}
+
+
+# 흑마법
+scores = [ 'A','B','C','D','A','A']
+easy_counter = Counter(scores)
+# print(easy_counter) = Counter({'A:3,'B:1','C:1','D:1'})
+```
+
