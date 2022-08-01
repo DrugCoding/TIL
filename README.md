@@ -357,3 +357,10 @@ easy_counter = Counter(scores)
 # print(easy_counter) = Counter({'A:3,'B:1','C:1','D:1'})
 ```
 
+## 8/1 - 스택(stack) / 큐(queue)
+
+- 스택 - O(1) 상수 복잡도
+  - 후입선출
+- 큐 - O(n) 선형 복잡도 / 덱을 쓴다면 상수 복잡도로 사용 가능 양방향으로 넣고 빼고 가능
+  - 선입선출
+  - 왼쪽에서 넣고 빼고는 appendleft()/popleft() 오른쪽은 append() ***(기본은 append(값) -> popleft())***
