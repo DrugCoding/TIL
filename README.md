@@ -5,8 +5,8 @@
 - 무슨 일이 있어도 하루 1commit
 - 간단하게라도 꼭 정리하기
 
----
-## 7/5 - Git의 시작
+# 7/5 - Git의 시작
+
 - 로컬저장소 만드는 단계
   - git init
   - git add
@@ -14,7 +14,8 @@
   - git commit -m "커밋 메시지"
   - git log (--oneline , -2 --oneline)
 
-## 7/6 - Github의 시작
+# 7/6 - Github의 시작
+
 - 원격저장소 만들기
   - Your repositories 에 들어가서 만든다.
 - 로컬저장소에 원격저장소 등록
@@ -25,7 +26,8 @@
 - git pull 과 git clone
   - 로컬저장소가 있을 때 pull / 통째로 받아와야 할 때 clone
   
-## 7/7 - Git branch 그리고 협업
+# 7/7 - Git branch 그리고 협업
+
 - branch 생성
   - git branch "branch name"
 - branch 이동
@@ -42,7 +44,7 @@
   - 같은 파일을 수정하는 경우 conflict 일어남
     - 충돌 된 부분 수정 --> git add . --> git commit (code 보고 닫는다)
 
-## 7/11 - Python 의 기초
+# 7/11 - Python 의 기초
 
 > 컴퓨터`[Computer]`(Caulation(계산)+Remember(기억))
 >
@@ -113,15 +115,15 @@
 
   - `len`글자길이 , 
 
-## 7/12
+# 7/12
 
-## 7/13 - 함수(def)
+# 7/13 - 함수(def)
 
 - 함수는 반드시 값을 하나만 return한다
   - return이 없는 경우에도 None을 반환한다
 - return과 동시에 종료된다
 
-## 7/14 - 문자열/리스트/
+# 7/14 - 문자열/리스트/
 
 - 문자열
 
@@ -145,9 +147,9 @@
   - .index('값') - '값'의 위치를 반환 #0,1,2,3,4,5  
     - .reverse() - 순서를 반대로 뒤집는다 (정렬 아님)
 
-## 7/15 - 모듈
+# 7/15 - 모듈
 
-## 7/18  - 딕셔너리 마무리 & 디버깅 & 에러와 예외
+# 7/18  - 딕셔너리 마무리 & 디버깅 & 에러와 예외
 
 ``````python
 # 딕셔너리 추가
@@ -189,7 +191,7 @@ print(result)
   - IndentationError - 스페이스, 탭 등등
   - Keyboardinterrupt - 임의로 코드가 계속 돌 때 (Ctrl + c 로 종료)
 
-## 7/19 - OOP(객체지향 프로그래밍)
+# 7/19 - OOP(객체지향 프로그래밍)
 
 > **객체(object)는 특정 타입(class)의 인스턴스(instance) 이다.**
 >
@@ -230,9 +232,9 @@ print(result)
   ```
   
 
-## 7/20 - OOP(객체지향 프로그래밍)
+# 7/20 - OOP(객체지향 프로그래밍)
 
-## 7/21 - 파이썬 응용&심화 / 모듈(패키지)
+# 7/21 - 파이썬 응용&심화 / 모듈(패키지)
 
 - 리스트 딕셔너리 컴프리핸션
 
@@ -265,7 +267,7 @@ pip uninstall requests - pip 삭제 명령어
 which python - python이 설치된 곳 찾는 명령어 
 ```
 
-## 7/22 - 프로젝트02 - API(Application Programming Interface)
+# 7/22 - 프로젝트02 - API(Application Programming Interface)
 
 - API 활용시 확인 사항
   - **요청하는 방식에 대한 이해**
@@ -278,7 +280,7 @@ which python - python이 설치된 곳 찾는 명령어
     - 응답 결과 타입 (JSON)
     - 응답 결과 구조
 
-## 7/25 - 알고리즘
+# 7/25 - 알고리즘
 
 - 코딩테스트
 
@@ -291,11 +293,11 @@ which python - python이 설치된 곳 찾는 명령어
 
   ![image-20220725102641931](README.assets/image-20220725102641931.png)
 
-## 7/26 - 알고리즘 - 빅오(Big-O) 표기법
+# 7/26 - 알고리즘 - 빅오(Big-O) 표기법
 
 ![image-20220726105133342](README.assets/image-20220726105133342.png)
 
-## 7/27 - 리스트컴프리헨션, 문자열(String), 아스키(ASCII)코드
+# 7/27 - 리스트컴프리헨션, 문자열(String), 아스키(ASCII)코드
 
 ![image-20220727105741422](README.assets/image-20220727105741422.png)
 
@@ -335,7 +337,7 @@ which python - python이 설치된 곳 찾는 명령어
 
 - 아스키코드
 
-## 7/28 - 딕셔너리(Dictionary)
+# 7/28 - 딕셔너리(Dictionary)
 
 ```python
 # 일반인
@@ -357,10 +359,23 @@ easy_counter = Counter(scores)
 # print(easy_counter) = Counter({'A:3,'B:1','C:1','D:1'})
 ```
 
-## 8/1 - 스택(stack) / 큐(queue)
+# 8/1 - 스택(stack) / 큐(queue)
 
 - 스택 - O(1) 상수 복잡도
   - 후입선출
 - 큐 - O(n) 선형 복잡도 / 덱을 쓴다면 상수 복잡도로 사용 가능 양방향으로 넣고 빼고 가능
   - 선입선출
   - 왼쪽에서 넣고 빼고는 appendleft()/popleft() 오른쪽은 append() ***(기본은 append(값) -> popleft())***
+
+# 8/2 - 힙(heapq) / 셋(set)
+
+# 8/3 - 행렬
+
+```python
+matrix = [list(map(int, input().split())) for i in range(3)]
+
+matrix = [list(map(int, input().split())) for i in range(8)] # 8 = n
+
+# 문자나 문자열의 경우엔 split()을 하지 않아도 된다.
+```
+
