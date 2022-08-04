@@ -1,4 +1,4 @@
-# TIL (Today I Learned)
+# TIL (Today I Learned)	
 # 절대 규칙
 > 내 접근 방법 설명 - 코드 보고 구성요소가 이해가 가는지 (접근 방법을 아는데 구현 못하면 코드를 보자)
 
@@ -379,3 +379,20 @@ matrix = [list(map(int, input().split())) for i in range(8)] # 8 = n
 # 문자나 문자열의 경우엔 split()을 하지 않아도 된다.
 ```
 
+# 8/4 - 2차원 리스트
+
+- 이중 for문 행 우선 순회
+
+  ![image-20220804104439471](README.assets/image-20220804104439471.png)
+
+- 이중 for문 열 우선 순회
+
+  ![image-20220804104423424](README.assets/image-20220804104423424.png)
+
+- 행 열을 모를 때
+
+  ![image-20220804105008743](README.assets/image-20220804105008743.png)
+
+- 전치(transpose)란 행렬의 행과 열을 서로 맞바꾸는 것***(열 우선 행렬 == 전치 행렬)***
+
+  ![image-20220804115017540](README.assets/image-20220804115017540.png)
