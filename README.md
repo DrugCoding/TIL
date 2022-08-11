@@ -405,3 +405,6 @@ matrix = [list(map(int, input().split())) for i in range(8)] # 8 = n
   - BFS 보다는 단순
 - BFS
   - 모든 정점을 방문할 필요가 없고 최단 거리를 구할 때 유리
+
+## 8/11 = DFS 추가 설명 / 알고리즘 마지막 날
+
