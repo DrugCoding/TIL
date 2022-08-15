@@ -408,3 +408,7 @@ matrix = [list(map(int, input().split())) for i in range(8)] # 8 = n
 
 ## 8/11 = DFS 추가 설명 / 알고리즘 마지막 날
 
+## 8/12 - 그림 오목 문제
+
+
+
