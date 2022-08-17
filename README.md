@@ -410,5 +410,24 @@ matrix = [list(map(int, input().split())) for i in range(8)] # 8 = n
 
 ## 8/12 - 그림 오목 문제
 
+## 8/16 화 - SQL / Database
+
+- 관계형 데이터베이스 (RDB)
+  - 스키마 - 자료구조의 표현방법
+- SQL
+  - 데이터베이스 관리 언어
+
+##  8/17 수 - SQL / WHERE
+
+
+
+
+
+
+
+
+
+
+
 
 
