@@ -1,5 +1,5 @@
 # TIL (Today I Learned)	
-# 절대 규칙
+# c절대 규칙
 > 내 접근 방법 설명 - 코드 보고 구성요소가 이해가 가는지 (접근 방법을 아는데 구현 못하면 코드를 보자)
 
 - 무슨 일이 있어도 하루 1commit
@@ -419,9 +419,9 @@ matrix = [list(map(int, input().split())) for i in range(8)] # 8 = n
 
 ##  8/17 수 - SQL / WHERE
 
+## 8/18 목 - SQL / 
 
-
-
+## 8/19 금 - SQL/CASE
 
 
 
